@@ -2901,7 +2901,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
       _createClass(SelecItensComponent, [{
         key: "ngOnInit",
-        value: function ngOnInit() {}
+        value: function ngOnInit() {
+          if (window.screen.width <= 425) {
+            // 768px portrait
+            this.mobile = true;
+          }
+        }
       }, {
         key: "selectProducts",
         value: function selectProducts() {
@@ -2931,7 +2936,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       selectors: [["app-selec-itens"]],
       decls: 3,
       vars: 2,
-      consts: [[2, "background", "url(../../assets/Cabrito_Joao_1920x1080.jpg)", "background-size", "cover", "height", "100%", "display", "flex", "align-items", "center", "justify-content", "center"], ["style", "background-color: white; bottom: 0; max-height: 70% !important; color: black; min-width: 40%;", 4, "ngIf"], [4, "ngIf"], [2, "background-color", "white", "bottom", "0", "max-height", "70% !important", "color", "black", "min-width", "40%"], [2, "opacity", "1 !important", "text-align", "center", "margin-bottom", "10px", "color", "rgb(226, 138, 219)"], [2, "overflow-y", "scroll", "max-height", "360px"], ["class", "row", "style", "margin-left: 10px; margin-top: 10px;", 4, "ngFor", "ngForOf"], [2, "display", "flex", "justify-content", "center", "min-height", "10%"], ["mat-raised-button", "", "color", "pink", 2, "margin-top", "5px", "margin-bottom", "5px", 3, "click"], [1, "row", 2, "margin-left", "10px", "margin-top", "10px"], [3, "ngModel", "ngModelChange"]],
+      consts: [[2, "background", "url(../../assets/Cabrito_Joao_1920x1080.jpg)", "background-size", "cover", "height", "100%", "display", "flex", "align-items", "center", "justify-content", "center"], ["style", "background-color: white; bottom: 0; max-height: 70% !important; color: black; min-width: 40%; max-width: 80%;", 4, "ngIf"], [4, "ngIf"], [2, "background-color", "white", "bottom", "0", "max-height", "70% !important", "color", "black", "min-width", "40%", "max-width", "80%"], [2, "opacity", "1 !important", "text-align", "center", "margin-bottom", "10px", "color", "rgb(226, 138, 219)"], [2, "overflow-y", "scroll", "max-height", "360px"], ["class", "row", "style", "margin-left: 10px; margin-top: 10px;", 4, "ngFor", "ngForOf"], [2, "display", "flex", "justify-content", "center", "min-height", "10%"], ["mat-raised-button", "", "color", "pink", 2, "margin-top", "5px", "margin-bottom", "5px", 3, "click"], [1, "row", 2, "margin-left", "10px", "margin-top", "10px"], [3, "ngModel", "ngModelChange"]],
       template: function SelecItensComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
