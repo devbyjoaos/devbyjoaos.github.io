@@ -1170,7 +1170,7 @@ class LoginComponent {
     }
 }
 LoginComponent.ɵfac = function LoginComponent_Factory(t) { return new (t || LoginComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_auth_services_login_service__WEBPACK_IMPORTED_MODULE_2__["LoginService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_components_snackbar_snackbar_service__WEBPACK_IMPORTED_MODULE_4__["SnackBarService"])); };
-LoginComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: LoginComponent, selectors: [["app-login"]], decls: 14, vars: 1, consts: [[2, "background", "url(../../assets/Cabrito_Joao_1920x1080.jpg)", "background-size", "cover", "height", "100%", "display", "flex", "align-items", "center", "justify-content", "center"], [2, "background-color", "white", "bottom", "0"], [2, "opacity", "1 !important", "text-align", "center", "margin-bottom", "10px", "color", "coral"], ["width", "320", "height", "240", "src", "../../assets/Capturar (1).png"], [2, "opacity", "1 !important", "color", "black"], [1, "row", 2, "justify-content", "center", "display", "flex"], [2, "width", "80%"], [2, "justify-content", "center", "display", "flex"], ["matInput", "", "name", "nickname", 3, "ngModel", "ngModelChange"], ["mat-raised-button", "", "color", "primary", 2, "width", "80%", 3, "click"]], template: function LoginComponent_Template(rf, ctx) { if (rf & 1) {
+LoginComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: LoginComponent, selectors: [["app-login"]], decls: 14, vars: 1, consts: [[2, "background-size", "cover", "height", "100%", "display", "flex", "align-items", "center", "justify-content", "center"], [2, "background-color", "white", "bottom", "0"], [2, "opacity", "1 !important", "text-align", "center", "margin-bottom", "10px", "color", "coral"], ["width", "320", "height", "240"], [2, "opacity", "1 !important", "color", "black"], [1, "row", 2, "justify-content", "center", "display", "flex"], [2, "width", "80%"], [2, "justify-content", "center", "display", "flex"], ["matInput", "", "name", "nickname", 3, "ngModel", "ngModelChange"], ["mat-raised-button", "", "color", "primary", 2, "width", "80%", 3, "click"]], template: function LoginComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "mat-card", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "mat-card-title", 2);
@@ -1505,9 +1505,6 @@ class SelecItensComponent {
         });
     }
     ngOnInit() {
-        if (window.screen.width <= 425) { // 768px portrait
-            this.mobile = true;
-        }
     }
     selectProducts() {
         const selectedList = this.productList.filter(x => x.checked);

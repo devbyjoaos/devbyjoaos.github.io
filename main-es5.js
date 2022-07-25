@@ -2162,7 +2162,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       selectors: [["app-login"]],
       decls: 14,
       vars: 1,
-      consts: [[2, "background", "url(../../assets/Cabrito_Joao_1920x1080.jpg)", "background-size", "cover", "height", "100%", "display", "flex", "align-items", "center", "justify-content", "center"], [2, "background-color", "white", "bottom", "0"], [2, "opacity", "1 !important", "text-align", "center", "margin-bottom", "10px", "color", "coral"], ["width", "320", "height", "240", "src", "../../assets/Capturar (1).png"], [2, "opacity", "1 !important", "color", "black"], [1, "row", 2, "justify-content", "center", "display", "flex"], [2, "width", "80%"], [2, "justify-content", "center", "display", "flex"], ["matInput", "", "name", "nickname", 3, "ngModel", "ngModelChange"], ["mat-raised-button", "", "color", "primary", 2, "width", "80%", 3, "click"]],
+      consts: [[2, "background-size", "cover", "height", "100%", "display", "flex", "align-items", "center", "justify-content", "center"], [2, "background-color", "white", "bottom", "0"], [2, "opacity", "1 !important", "text-align", "center", "margin-bottom", "10px", "color", "coral"], ["width", "320", "height", "240"], [2, "opacity", "1 !important", "color", "black"], [1, "row", 2, "justify-content", "center", "display", "flex"], [2, "width", "80%"], [2, "justify-content", "center", "display", "flex"], ["matInput", "", "name", "nickname", 3, "ngModel", "ngModelChange"], ["mat-raised-button", "", "color", "primary", 2, "width", "80%", 3, "click"]],
       template: function LoginComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -2901,12 +2901,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
       _createClass(SelecItensComponent, [{
         key: "ngOnInit",
-        value: function ngOnInit() {
-          if (window.screen.width <= 425) {
-            // 768px portrait
-            this.mobile = true;
-          }
-        }
+        value: function ngOnInit() {}
       }, {
         key: "selectProducts",
         value: function selectProducts() {
