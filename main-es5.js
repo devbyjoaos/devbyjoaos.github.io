@@ -1815,11 +1815,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function ConfirmationComponent_div_5_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 6);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "p", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "p", 7);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "mat-icon", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "mat-icon", 8);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "star_border");
 
@@ -1827,7 +1827,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "mat-icon", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "mat-icon", 8);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "star_border");
 
@@ -1896,9 +1896,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     ConfirmationComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
       type: ConfirmationComponent,
       selectors: [["app-confirmation"]],
-      decls: 13,
+      decls: 9,
       vars: 2,
-      consts: [[2, "background", "url(../../assets/Cabrito_Joao_1920x1080.jpg)", "background-size", "cover", "height", "100%", "display", "flex", "align-items", "center", "justify-content", "center"], [2, "background-color", "white", "bottom", "0", "max-height", "70% !important", "color", "black", "min-height", "35%", "align-content", "space-between", "min-width", "20%"], [2, "opacity", "1 !important", "text-align", "center", "margin-bottom", "10px", "color", "rgb(226, 138, 219)"], ["class", "row", "style", "align-content: center; margin-top: 0.3em; margin-bottom: 0.3em;", 4, "ngFor", "ngForOf"], ["readonly", "true", "disabled", "true", 2, "text-align", "center", "font-size", "16px", "align-items", "center", "margin-top", "0.6em", "margin-bottom", "0.3em"], [2, "display", "flex", "justify-content", "center", "min-height", "10%"], ["width", "80", "height", "80", "src", "../../assets/llama-llama (1).png", 2, "bottom", "0", "position", "absolute", "margin-right", "15em"], ["mat-raised-button", "", "color", "pink", 2, "margin-top", "5px", "margin-bottom", "5px", "bottom", "0", "position", "absolute", 3, "click"], ["width", "80", "height", "80", "src", "../../assets/llama-llama.png", 2, "bottom", "0", "position", "absolute", "margin-left", "15em"], [1, "row", 2, "align-content", "center", "margin-top", "0.3em", "margin-bottom", "0.3em"], ["readonly", "true", "disabled", "true", 2, "text-align", "center", "font-size", "16px", "align-items", "center"], [2, "color", "rgb(226, 138, 219)"]],
+      consts: [[2, "background", "linear-gradient(27deg, rgba(0,0,0,1) 2%, rgba(130,138,204,1) 44%, rgba(43,95,235,1) 100%)", "background-size", "cover", "height", "100%", "display", "flex", "align-items", "center", "justify-content", "center"], [2, "background-color", "white", "bottom", "0", "max-height", "70% !important", "color", "black", "min-height", "35%", "align-content", "space-between", "min-width", "20%"], [2, "opacity", "1 !important", "text-align", "center", "margin-bottom", "10px", "color", "rgba(43,95,235,1)"], ["class", "row", "style", "align-content: center; margin-top: 0.3em; margin-bottom: 0.3em;", 4, "ngFor", "ngForOf"], [2, "display", "flex", "justify-content", "center", "min-height", "10%"], ["mat-raised-button", "", "color", "blue", 2, "margin-top", "5px", "margin-bottom", "5px", "bottom", "0", "position", "absolute", 3, "click"], [1, "row", 2, "align-content", "center", "margin-top", "0.3em", "margin-bottom", "0.3em"], ["readonly", "true", "disabled", "true", 2, "text-align", "center", "font-size", "16px", "align-items", "center"], [2, "color", "rgba(43,95,235,1)"]],
       template: function ConfirmationComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -1915,29 +1915,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, ConfirmationComponent_div_5_Template, 7, 1, "div", 3);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "p", 4);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "+ Fralda M ou G");
-
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "mat-card-footer", 4);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "mat-card-footer", 5);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "button", 5);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "img", 6);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "button", 7);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ConfirmationComponent_Template_button_click_10_listener() {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ConfirmationComponent_Template_button_click_7_listener() {
             return ctx.conclude();
           });
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "Concluir");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "Concluir");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "img", 8);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
