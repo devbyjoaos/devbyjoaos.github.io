@@ -3129,7 +3129,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       selectors: [["app-thanks"]],
       decls: 3,
       vars: 2,
-      consts: [[2, "background", "linear-gradient(27deg, rgba(0,0,0,1) 2%, rgba(130,138,204,1) 44%, rgba(43,95,235,1) 100%)", "background-size", "cover", "height", "100%", "display", "flex", "align-items", "center", "justify-content", "center"], ["src", "../../assets/Obrigado (2) (2).png", "height", "30%", "width", "30%", 4, "ngIf"], ["src", "../../assets/Obrigado (2) (2).png", "height", "25%", "width", "65%", 4, "ngIf"], ["src", "../../assets/Obrigado (2) (2).png", "height", "30%", "width", "30%"], ["src", "../../assets/Obrigado (2) (2).png", "height", "25%", "width", "65%"]],
+      consts: [[2, "background", "linear-gradient(27deg, rgba(0,0,0,1) 2%, rgba(130,138,204,1) 44%, rgba(43,95,235,1) 100%)", "background-size", "cover", "height", "100%", "display", "flex", "align-items", "center", "justify-content", "center"], ["src", "../../assets/99938721-99AM_5LmFdZt6m3-iz0H85iyf5vMFR73-cropped-3x4-browser.png", "height", "30%", "width", "30%", 4, "ngIf"], ["src", "../../assets/99938721-99AM_5LmFdZt6m3-iz0H85iyf5vMFR73-cropped-3x4-browser.png", "height", "25%", "width", "65%", 4, "ngIf"], ["src", "../../assets/99938721-99AM_5LmFdZt6m3-iz0H85iyf5vMFR73-cropped-3x4-browser.png", "height", "30%", "width", "30%"], ["src", "../../assets/99938721-99AM_5LmFdZt6m3-iz0H85iyf5vMFR73-cropped-3x4-browser.png", "height", "25%", "width", "65%"]],
       template: function ThanksComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
