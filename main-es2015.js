@@ -1519,9 +1519,6 @@ class SelecItensComponent {
         this.activatedRoute.params.subscribe(params => {
             this.name = params.name;
         });
-        if (this.size < 1) {
-            this.size = 1;
-        }
     }
     ngOnInit() {
     }

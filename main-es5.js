@@ -2949,10 +2949,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         this.activatedRoute.params.subscribe(function (params) {
           _this8.name = params.name;
         });
-
-        if (this.size < 1) {
-          this.size = 1;
-        }
       }
 
       _createClass(SelecItensComponent, [{
