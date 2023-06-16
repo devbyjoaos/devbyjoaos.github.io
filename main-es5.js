@@ -2941,7 +2941,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           checked: false
         };
         this.productList = [];
-        this.size = 1;
+        this.size = 0;
         this.service.getProducts().subscribe(function (result) {
           _this8.productList = result;
           _this8.size = _this8.productList.length;
@@ -2949,6 +2949,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         this.activatedRoute.params.subscribe(function (params) {
           _this8.name = params.name;
         });
+
+        if (this.size < 1) {
+          this.size = 1;
+        }
       }
 
       _createClass(SelecItensComponent, [{

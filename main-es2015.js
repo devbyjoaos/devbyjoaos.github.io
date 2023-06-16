@@ -1511,7 +1511,7 @@ class SelecItensComponent {
         this.snackbar = snackbar;
         this.outro = { id: 0, name: "", quantity: 1, checked: false };
         this.productList = [];
-        this.size = 1;
+        this.size = 0;
         this.service.getProducts().subscribe(result => {
             this.productList = result;
             this.size = this.productList.length;
@@ -1519,6 +1519,9 @@ class SelecItensComponent {
         this.activatedRoute.params.subscribe(params => {
             this.name = params.name;
         });
+        if (this.size < 1) {
+            this.size = 1;
+        }
     }
     ngOnInit() {
     }
