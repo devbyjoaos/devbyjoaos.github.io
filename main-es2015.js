@@ -1558,10 +1558,10 @@ class ServiceService {
         this.productList = [];
     }
     getProducts() {
-        return this.httpClient.get('http://54.207.204.85:8080/produto/v1');
+        return this.httpClient.get('https://ec2-54-94-174-162.sa-east-1.compute.amazonaws.com:8080/produto/v1');
     }
     concludeSelection(person) {
-        return this.httpClient.post('http://ec2-54-207-204-85.sa-east-1.compute.amazonaws.com:8080/pessoa/v1', person);
+        return this.httpClient.post('https://ec2-54-207-204-85.sa-east-1.compute.amazonaws.com:8080/pessoa/v1', person);
     }
 }
 ServiceService.ɵfac = function ServiceService_Factory(t) { return new (t || ServiceService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"])); };
