@@ -1489,8 +1489,8 @@ class SelecItensComponent {
         this.activatedRoute = activatedRoute;
         this.router = router;
         this.snackbar = snackbar;
-        this.productList = [{ id: 1, name: "dasd", quantity: 1, checked: false }, { id: 1, name: "dasd", quantity: 1, checked: false }, { id: 1, name: "dasd", quantity: 1, checked: false }, { id: 1, name: "dasd", quantity: 1, checked: false }, { id: 1, name: "dasd", quantity: 1, checked: false }, { id: 1, name: "dasd", quantity: 1, checked: false }, { id: 1, name: "dasd", quantity: 1, checked: false }, { id: 1, name: "dasd", quantity: 1, checked: false }, { id: 1, name: "dasd", quantity: 1, checked: false }, { id: 1, name: "dasd", quantity: 1, checked: false }, { id: 1, name: "dasd", quantity: 1, checked: false }];
-        this.size = 1;
+        this.productList = [];
+        this.size = 0;
         this.service.getProducts().subscribe(result => {
             this.productList = result;
             this.size = this.productList.length;
@@ -1558,10 +1558,10 @@ class ServiceService {
         this.productList = [];
     }
     getProducts() {
-        return this.httpClient.get('https://ec2-54-94-174-162.sa-east-1.compute.amazonaws.com:8080/produto/v1');
+        return this.httpClient.get('https://cha-casa-nova-joao-e-mari-9bb1be120706.herokuapp.com/produto/v1');
     }
     concludeSelection(person) {
-        return this.httpClient.post('https://ec2-54-207-204-85.sa-east-1.compute.amazonaws.com:8080/pessoa/v1', person);
+        return this.httpClient.post('https://cha-casa-nova-joao-e-mari-9bb1be120706.herokuapp.com/pessoa/v1', person);
     }
 }
 ServiceService.ɵfac = function ServiceService_Factory(t) { return new (t || ServiceService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"])); };
