@@ -3015,12 +3015,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass(ServiceService, [{
         key: "getProducts",
         value: function getProducts() {
-          return this.httpClient.get('https://cha-de-bebe.herokuapp.com/produto/v1');
+          return this.httpClient.get('http://ec2-54-207-204-85.sa-east-1.compute.amazonaws.com:8080/produto/v1');
         }
       }, {
         key: "concludeSelection",
         value: function concludeSelection(person) {
-          return this.httpClient.post('https://cha-de-bebe.herokuapp.com/pessoa/v1', person);
+          return this.httpClient.post('http://ec2-54-207-204-85.sa-east-1.compute.amazonaws.com:8080/pessoa/v1', person);
         }
       }]);
 
