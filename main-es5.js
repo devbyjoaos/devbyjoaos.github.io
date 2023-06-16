@@ -1898,7 +1898,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       selectors: [["app-confirmation"]],
       decls: 9,
       vars: 2,
-      consts: [[2, "background", "linear-gradient(27deg, rgb(255, 245, 248) 2%, rgba(255,179,169) 100%)", "background-size", "cover", "height", "100%", "display", "flex", "align-items", "center", "justify-content", "center"], [2, "background-color", "white", "bottom", "0", "max-height", "70% !important", "color", "black", "min-height", "35%", "align-content", "space-between", "min-width", "20%"], [2, "opacity", "1 !important", "text-align", "center", "margin-bottom", "10px", "color", "rgba(43,95,235,1)"], ["class", "row", "style", "align-content: center; margin-top: 0.3em; margin-bottom: 0.3em;", 4, "ngFor", "ngForOf"], [2, "display", "flex", "justify-content", "center", "min-height", "10%"], ["mat-raised-button", "", 2, "margin-top", "5px", "margin-bottom", "5px", "bottom", "0", "position", "absolute", "background-color", "rgba(43,95,235,1)", 3, "click"], [1, "row", 2, "align-content", "center", "margin-top", "0.3em", "margin-bottom", "0.3em"], ["readonly", "true", "disabled", "true", 2, "text-align", "center", "font-size", "16px", "align-items", "center"], [2, "color", "rgba(43,95,235,1)"]],
+      consts: [[2, "background", "linear-gradient(27deg, rgb(255, 245, 248) 2%, rgba(255,179,169) 100%)", "background-size", "cover", "height", "100%", "display", "flex", "align-items", "center", "justify-content", "center"], [2, "background-color", "white", "bottom", "0", "max-height", "70% !important", "color", "black", "min-height", "35%", "align-content", "space-between", "min-width", "20%"], [2, "opacity", "1 !important", "text-align", "center", "margin-bottom", "10px", "color", "rgba(255,179,169)"], ["class", "row", "style", "align-content: center; margin-top: 0.3em; margin-bottom: 0.3em;", 4, "ngFor", "ngForOf"], [2, "display", "flex", "justify-content", "center", "min-height", "10%"], ["mat-raised-button", "", 2, "margin-top", "5px", "margin-bottom", "5px", "bottom", "0", "position", "absolute", "background-color", "rgba(255,179,169)", 3, "click"], [1, "row", 2, "align-content", "center", "margin-top", "0.3em", "margin-bottom", "0.3em"], ["readonly", "true", "disabled", "true", 2, "text-align", "center", "font-size", "16px", "align-items", "center"], [2, "color", "rgba(255,179,169)"]],
       template: function ConfirmationComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -2878,8 +2878,63 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         this.activatedRoute = activatedRoute;
         this.router = router;
         this.snackbar = snackbar;
-        this.productList = [];
-        this.size = 0;
+        this.productList = [{
+          id: 1,
+          name: "dasd",
+          quantity: 1,
+          checked: false
+        }, {
+          id: 1,
+          name: "dasd",
+          quantity: 1,
+          checked: false
+        }, {
+          id: 1,
+          name: "dasd",
+          quantity: 1,
+          checked: false
+        }, {
+          id: 1,
+          name: "dasd",
+          quantity: 1,
+          checked: false
+        }, {
+          id: 1,
+          name: "dasd",
+          quantity: 1,
+          checked: false
+        }, {
+          id: 1,
+          name: "dasd",
+          quantity: 1,
+          checked: false
+        }, {
+          id: 1,
+          name: "dasd",
+          quantity: 1,
+          checked: false
+        }, {
+          id: 1,
+          name: "dasd",
+          quantity: 1,
+          checked: false
+        }, {
+          id: 1,
+          name: "dasd",
+          quantity: 1,
+          checked: false
+        }, {
+          id: 1,
+          name: "dasd",
+          quantity: 1,
+          checked: false
+        }, {
+          id: 1,
+          name: "dasd",
+          quantity: 1,
+          checked: false
+        }];
+        this.size = 1;
         this.service.getProducts().subscribe(function (result) {
           _this8.productList = result;
           _this8.size = _this8.productList.length;
@@ -2921,7 +2976,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       selectors: [["app-selec-itens"]],
       decls: 3,
       vars: 2,
-      consts: [[2, "background", "linear-gradient(27deg, rgb(255, 245, 248) 2%, rgba(255,179,169) 100%)", "background-size", "cover", "height", "100%", "display", "flex", "align-items", "center", "justify-content", "center"], ["style", "background-color: white; bottom: 0; max-height: 70% !important; color: black; min-width: 40%; max-width: 80%;", 4, "ngIf"], [4, "ngIf"], [2, "background-color", "white", "bottom", "0", "max-height", "70% !important", "color", "black", "min-width", "40%", "max-width", "80%"], [2, "opacity", "1 !important", "text-align", "center", "margin-bottom", "10px", "color", "rgba(43,95,235,1)"], [2, "overflow-y", "scroll", "max-height", "360px"], ["class", "row", "style", "margin-left: 10px; margin-top: 10px;", 4, "ngFor", "ngForOf"], [2, "display", "flex", "justify-content", "center", "min-height", "10%"], ["mat-raised-button", "", 2, "margin-top", "5px", "margin-bottom", "5px", 3, "click"], [1, "row", 2, "margin-left", "10px", "margin-top", "10px"], [3, "ngModel", "ngModelChange"]],
+      consts: [[2, "background", "linear-gradient(27deg, rgb(255, 245, 248) 2%, rgba(255,179,169) 100%)", "background-size", "cover", "height", "100%", "display", "flex", "align-items", "center", "justify-content", "center"], ["style", "background-color: white; bottom: 0; max-height: 70% !important; color: black; min-width: 40%; max-width: 80%;", 4, "ngIf"], [4, "ngIf"], [2, "background-color", "white", "bottom", "0", "max-height", "70% !important", "color", "black", "min-width", "40%", "max-width", "80%"], [2, "opacity", "1 !important", "text-align", "center", "margin-bottom", "10px", "color", "rgba(255,179,169)"], [2, "overflow-y", "scroll", "max-height", "360px"], ["class", "row", "style", "margin-left: 10px; margin-top: 10px;", 4, "ngFor", "ngForOf"], [2, "display", "flex", "justify-content", "center", "min-height", "10%"], ["mat-raised-button", "", 2, "margin-top", "5px", "margin-bottom", "5px", 3, "click"], [1, "row", 2, "margin-left", "10px", "margin-top", "10px"], [3, "ngModel", "ngModelChange"]],
       template: function SelecItensComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -2944,7 +2999,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }
       },
       directives: [_angular_common__WEBPACK_IMPORTED_MODULE_4__["NgIf"], _angular_material_card__WEBPACK_IMPORTED_MODULE_5__["MatCard"], _angular_material_card__WEBPACK_IMPORTED_MODULE_5__["MatCardTitle"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgForOf"], _angular_material_card__WEBPACK_IMPORTED_MODULE_5__["MatCardFooter"], _angular_material_button__WEBPACK_IMPORTED_MODULE_6__["MatButton"], _angular_material_checkbox__WEBPACK_IMPORTED_MODULE_7__["MatCheckbox"], _angular_forms__WEBPACK_IMPORTED_MODULE_8__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_8__["NgModel"], _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_9__["MatSpinner"]],
-      styles: [".mat-checkbox-frame {\n  border-color: #ffb3a9;\n}\n\n  .mat-checkbox-checked.mat-accent .mat-checkbox-background {\n  background-color: #ffb3a9 !important;\n}\n\n  .mat-checkbox-checkmark-path {\n  stroke: #ffffff !important;\n}\n\n[_ngcontent-%COMP%]::-webkit-scrollbar-thumb:hover {\n  background: #ffb3a9;\n}\n\n[_ngcontent-%COMP%]::-webkit-scrollbar-thumb {\n  background: #ffb3a9;\n  border-radius: 5px;\n}\n\n[_ngcontent-%COMP%]::-webkit-scrollbar-track {\n  box-shadow: inset 0 0 5px grey;\n  border-radius: 10px;\n}\n\n[_ngcontent-%COMP%]::-webkit-scrollbar {\n  width: 10px;\n  height: 10px;\n}\n\n.mat-pink[_ngcontent-%COMP%] {\n  background-color: #ffb3a9;\n}\n\n  .mat-spinner circle {\n  stroke: #ffb3a9;\n}\n\n.mat-raised-button[_ngcontent-cnd-c102][_ngcontent-%COMP%], .mat-fab[_ngcontent-cnd-c102][_ngcontent-%COMP%], .mat-mini-fab[_ngcontent-cnd-c102][_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #ffb3a9 !important;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc2VsZWMtaXRlbnMvQzpcXFVzZXJzXFx2aWN0b1xcT25lRHJpdmVcXMOBcmVhIGRlIFRyYWJhbGhvXFxLYXNwcGVyXFxlc3R1ZG9cXGFuYUp1bGlhRnJvbnQvc3JjXFxhcHBcXHNlbGVjLWl0ZW5zXFxzZWxlYy1pdGVucy5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvc2VsZWMtaXRlbnMvc2VsZWMtaXRlbnMuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxxQkFBQTtBQ0NGOztBREdFO0VBQ0Usb0NBQUE7QUNBSjs7QURJQTtFQUNFLDBCQUFBO0FDREY7O0FESUE7RUFDRSxtQkFBQTtBQ0RGOztBREdBO0VBQ0UsbUJBQUE7RUFDQSxrQkFBQTtBQ0FGOztBREdBO0VBQ0UsOEJBQUE7RUFDQSxtQkFBQTtBQ0FGOztBREdBO0VBQ0UsV0FBQTtFQUNBLFlBQUE7QUNBRjs7QURHQTtFQUNFLHlCQUFBO0FDQUY7O0FER0E7RUFDRSxlQUFBO0FDQUY7O0FER0E7RUFDRSxXQUFBO0VBQ0Esb0NBQUE7QUNBRiIsImZpbGUiOiJzcmMvYXBwL3NlbGVjLWl0ZW5zL3NlbGVjLWl0ZW5zLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiOjpuZy1kZWVwIC5tYXQtY2hlY2tib3gtZnJhbWUge1xyXG4gIGJvcmRlci1jb2xvcjogcmdiYSgyNTUsMTc5LDE2OSk7XHJcbn1cclxuXHJcbjo6bmctZGVlcCAubWF0LWNoZWNrYm94LWNoZWNrZWQubWF0LWFjY2VudCB7XHJcbiAgLm1hdC1jaGVja2JveC1iYWNrZ3JvdW5kIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMjU1LDE3OSwxNjkpIWltcG9ydGFudDtcclxuICB9XHJcbn1cclxuXHJcbjo6bmctZGVlcCAubWF0LWNoZWNrYm94LWNoZWNrbWFyay1wYXRoIHtcclxuICBzdHJva2U6ICNmZmZmZmYgIWltcG9ydGFudDtcclxufVxyXG5cclxuOjotd2Via2l0LXNjcm9sbGJhci10aHVtYjpob3ZlciB7XHJcbiAgYmFja2dyb3VuZDogcmdiYSgyNTUsMTc5LDE2OSk7XHJcbn1cclxuOjotd2Via2l0LXNjcm9sbGJhci10aHVtYiB7XHJcbiAgYmFja2dyb3VuZDogcmdiYSgyNTUsMTc5LDE2OSk7XHJcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG59XHJcblxyXG46Oi13ZWJraXQtc2Nyb2xsYmFyLXRyYWNrIHtcclxuICBib3gtc2hhZG93OiBpbnNldCAwIDAgNXB4IGdyZXk7XHJcbiAgYm9yZGVyLXJhZGl1czogMTBweDtcclxufVxyXG5cclxuOjotd2Via2l0LXNjcm9sbGJhciB7XHJcbiAgd2lkdGg6IDEwcHg7XHJcbiAgaGVpZ2h0OiAxMHB4O1xyXG59XHJcblxyXG4ubWF0LXBpbmsge1xyXG4gIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMjU1LDE3OSwxNjkpO1xyXG59XHJcblxyXG46Om5nLWRlZXAgLm1hdC1zcGlubmVyIGNpcmNsZSB7XHJcbiAgc3Ryb2tlOiByZ2JhKDI1NSwxNzksMTY5KTtcclxufVxyXG5cclxuLm1hdC1yYWlzZWQtYnV0dG9uW19uZ2NvbnRlbnQtY25kLWMxMDJdLCAubWF0LWZhYltfbmdjb250ZW50LWNuZC1jMTAyXSwgLm1hdC1taW5pLWZhYltfbmdjb250ZW50LWNuZC1jMTAyXSB7XHJcbiAgY29sb3I6ICNmZmY7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgyNTUsMTc5LDE2OSkgIWltcG9ydGFudDtcclxufVxyXG4iLCI6Om5nLWRlZXAgLm1hdC1jaGVja2JveC1mcmFtZSB7XG4gIGJvcmRlci1jb2xvcjogI2ZmYjNhOTtcbn1cblxuOjpuZy1kZWVwIC5tYXQtY2hlY2tib3gtY2hlY2tlZC5tYXQtYWNjZW50IC5tYXQtY2hlY2tib3gtYmFja2dyb3VuZCB7XG4gIGJhY2tncm91bmQtY29sb3I6ICNmZmIzYTkgIWltcG9ydGFudDtcbn1cblxuOjpuZy1kZWVwIC5tYXQtY2hlY2tib3gtY2hlY2ttYXJrLXBhdGgge1xuICBzdHJva2U6ICNmZmZmZmYgIWltcG9ydGFudDtcbn1cblxuOjotd2Via2l0LXNjcm9sbGJhci10aHVtYjpob3ZlciB7XG4gIGJhY2tncm91bmQ6ICNmZmIzYTk7XG59XG5cbjo6LXdlYmtpdC1zY3JvbGxiYXItdGh1bWIge1xuICBiYWNrZ3JvdW5kOiAjZmZiM2E5O1xuICBib3JkZXItcmFkaXVzOiA1cHg7XG59XG5cbjo6LXdlYmtpdC1zY3JvbGxiYXItdHJhY2sge1xuICBib3gtc2hhZG93OiBpbnNldCAwIDAgNXB4IGdyZXk7XG4gIGJvcmRlci1yYWRpdXM6IDEwcHg7XG59XG5cbjo6LXdlYmtpdC1zY3JvbGxiYXIge1xuICB3aWR0aDogMTBweDtcbiAgaGVpZ2h0OiAxMHB4O1xufVxuXG4ubWF0LXBpbmsge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZiM2E5O1xufVxuXG46Om5nLWRlZXAgLm1hdC1zcGlubmVyIGNpcmNsZSB7XG4gIHN0cm9rZTogI2ZmYjNhOTtcbn1cblxuLm1hdC1yYWlzZWQtYnV0dG9uW19uZ2NvbnRlbnQtY25kLWMxMDJdLCAubWF0LWZhYltfbmdjb250ZW50LWNuZC1jMTAyXSwgLm1hdC1taW5pLWZhYltfbmdjb250ZW50LWNuZC1jMTAyXSB7XG4gIGNvbG9yOiAjZmZmO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZiM2E5ICFpbXBvcnRhbnQ7XG59Il19 */"]
+      styles: [".mat-checkbox-frame {\n  border-color: #ffb3a9;\n}\n\n  .mat-checkbox-checked.mat-accent .mat-checkbox-background {\n  background-color: #ffb3a9 !important;\n}\n\n  .mat-checkbox-checkmark-path {\n  stroke: #ffffff !important;\n}\n\n[_ngcontent-%COMP%]::-webkit-scrollbar-thumb:hover {\n  background: #ffb3a9;\n}\n\n[_ngcontent-%COMP%]::-webkit-scrollbar-thumb {\n  background: #ffb3a9;\n  border-radius: 5px;\n}\n\n[_ngcontent-%COMP%]::-webkit-scrollbar-track {\n  box-shadow: inset 0 0 5px grey;\n  border-radius: 10px;\n}\n\n[_ngcontent-%COMP%]::-webkit-scrollbar {\n  width: 10px;\n  height: 10px;\n}\n\n.mat-pink[_ngcontent-%COMP%] {\n  background-color: #ffb3a9;\n}\n\n  .mat-spinner circle {\n  stroke: #ffb3a9;\n}\n\n.mat-raised-button[_ngcontent-cnd-c102][_ngcontent-%COMP%], .mat-fab[_ngcontent-cnd-c102][_ngcontent-%COMP%], .mat-mini-fab[_ngcontent-cnd-c102][_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #ffb3a9 !important;\n}\n\n.mat-flat-button[_ngcontent-%COMP%], .mat-raised-button[_ngcontent-%COMP%], .mat-fab[_ngcontent-%COMP%], .mat-mini-fab[_ngcontent-%COMP%] {\n  color: #fff;\n  background-color: #ffb3a9 !important;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc2VsZWMtaXRlbnMvQzpcXFVzZXJzXFx2aWN0b1xcT25lRHJpdmVcXMOBcmVhIGRlIFRyYWJhbGhvXFxLYXNwcGVyXFxlc3R1ZG9cXGFuYUp1bGlhRnJvbnQvc3JjXFxhcHBcXHNlbGVjLWl0ZW5zXFxzZWxlYy1pdGVucy5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvc2VsZWMtaXRlbnMvc2VsZWMtaXRlbnMuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxxQkFBQTtBQ0NGOztBREdFO0VBQ0Usb0NBQUE7QUNBSjs7QURJQTtFQUNFLDBCQUFBO0FDREY7O0FESUE7RUFDRSxtQkFBQTtBQ0RGOztBREdBO0VBQ0UsbUJBQUE7RUFDQSxrQkFBQTtBQ0FGOztBREdBO0VBQ0UsOEJBQUE7RUFDQSxtQkFBQTtBQ0FGOztBREdBO0VBQ0UsV0FBQTtFQUNBLFlBQUE7QUNBRjs7QURHQTtFQUNFLHlCQUFBO0FDQUY7O0FER0E7RUFDRSxlQUFBO0FDQUY7O0FER0E7RUFDRSxXQUFBO0VBQ0Esb0NBQUE7QUNBRjs7QURHQTtFQUNFLFdBQUE7RUFDQSxvQ0FBQTtBQ0FGIiwiZmlsZSI6InNyYy9hcHAvc2VsZWMtaXRlbnMvc2VsZWMtaXRlbnMuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyI6Om5nLWRlZXAgLm1hdC1jaGVja2JveC1mcmFtZSB7XHJcbiAgYm9yZGVyLWNvbG9yOiByZ2JhKDI1NSwxNzksMTY5KTtcclxufVxyXG5cclxuOjpuZy1kZWVwIC5tYXQtY2hlY2tib3gtY2hlY2tlZC5tYXQtYWNjZW50IHtcclxuICAubWF0LWNoZWNrYm94LWJhY2tncm91bmQge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgyNTUsMTc5LDE2OSkhaW1wb3J0YW50O1xyXG4gIH1cclxufVxyXG5cclxuOjpuZy1kZWVwIC5tYXQtY2hlY2tib3gtY2hlY2ttYXJrLXBhdGgge1xyXG4gIHN0cm9rZTogI2ZmZmZmZiAhaW1wb3J0YW50O1xyXG59XHJcblxyXG46Oi13ZWJraXQtc2Nyb2xsYmFyLXRodW1iOmhvdmVyIHtcclxuICBiYWNrZ3JvdW5kOiByZ2JhKDI1NSwxNzksMTY5KTtcclxufVxyXG46Oi13ZWJraXQtc2Nyb2xsYmFyLXRodW1iIHtcclxuICBiYWNrZ3JvdW5kOiByZ2JhKDI1NSwxNzksMTY5KTtcclxuICBib3JkZXItcmFkaXVzOiA1cHg7XHJcbn1cclxuXHJcbjo6LXdlYmtpdC1zY3JvbGxiYXItdHJhY2sge1xyXG4gIGJveC1zaGFkb3c6IGluc2V0IDAgMCA1cHggZ3JleTtcclxuICBib3JkZXItcmFkaXVzOiAxMHB4O1xyXG59XHJcblxyXG46Oi13ZWJraXQtc2Nyb2xsYmFyIHtcclxuICB3aWR0aDogMTBweDtcclxuICBoZWlnaHQ6IDEwcHg7XHJcbn1cclxuXHJcbi5tYXQtcGluayB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgyNTUsMTc5LDE2OSk7XHJcbn1cclxuXHJcbjo6bmctZGVlcCAubWF0LXNwaW5uZXIgY2lyY2xlIHtcclxuICBzdHJva2U6IHJnYmEoMjU1LDE3OSwxNjkpO1xyXG59XHJcblxyXG4ubWF0LXJhaXNlZC1idXR0b25bX25nY29udGVudC1jbmQtYzEwMl0sIC5tYXQtZmFiW19uZ2NvbnRlbnQtY25kLWMxMDJdLCAubWF0LW1pbmktZmFiW19uZ2NvbnRlbnQtY25kLWMxMDJdIHtcclxuICBjb2xvcjogI2ZmZjtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDE3OSwxNjkpICFpbXBvcnRhbnQ7XHJcbn1cclxuXHJcbi5tYXQtZmxhdC1idXR0b24sIC5tYXQtcmFpc2VkLWJ1dHRvbiwgLm1hdC1mYWIsIC5tYXQtbWluaS1mYWIge1xyXG4gIGNvbG9yOiAjZmZmO1xyXG4gIGJhY2tncm91bmQtY29sb3I6IHJnYigyNTUsMTc5LDE2OSkgIWltcG9ydGFudDtcclxufVxyXG4iLCI6Om5nLWRlZXAgLm1hdC1jaGVja2JveC1mcmFtZSB7XG4gIGJvcmRlci1jb2xvcjogI2ZmYjNhOTtcbn1cblxuOjpuZy1kZWVwIC5tYXQtY2hlY2tib3gtY2hlY2tlZC5tYXQtYWNjZW50IC5tYXQtY2hlY2tib3gtYmFja2dyb3VuZCB7XG4gIGJhY2tncm91bmQtY29sb3I6ICNmZmIzYTkgIWltcG9ydGFudDtcbn1cblxuOjpuZy1kZWVwIC5tYXQtY2hlY2tib3gtY2hlY2ttYXJrLXBhdGgge1xuICBzdHJva2U6ICNmZmZmZmYgIWltcG9ydGFudDtcbn1cblxuOjotd2Via2l0LXNjcm9sbGJhci10aHVtYjpob3ZlciB7XG4gIGJhY2tncm91bmQ6ICNmZmIzYTk7XG59XG5cbjo6LXdlYmtpdC1zY3JvbGxiYXItdGh1bWIge1xuICBiYWNrZ3JvdW5kOiAjZmZiM2E5O1xuICBib3JkZXItcmFkaXVzOiA1cHg7XG59XG5cbjo6LXdlYmtpdC1zY3JvbGxiYXItdHJhY2sge1xuICBib3gtc2hhZG93OiBpbnNldCAwIDAgNXB4IGdyZXk7XG4gIGJvcmRlci1yYWRpdXM6IDEwcHg7XG59XG5cbjo6LXdlYmtpdC1zY3JvbGxiYXIge1xuICB3aWR0aDogMTBweDtcbiAgaGVpZ2h0OiAxMHB4O1xufVxuXG4ubWF0LXBpbmsge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZiM2E5O1xufVxuXG46Om5nLWRlZXAgLm1hdC1zcGlubmVyIGNpcmNsZSB7XG4gIHN0cm9rZTogI2ZmYjNhOTtcbn1cblxuLm1hdC1yYWlzZWQtYnV0dG9uW19uZ2NvbnRlbnQtY25kLWMxMDJdLCAubWF0LWZhYltfbmdjb250ZW50LWNuZC1jMTAyXSwgLm1hdC1taW5pLWZhYltfbmdjb250ZW50LWNuZC1jMTAyXSB7XG4gIGNvbG9yOiAjZmZmO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZiM2E5ICFpbXBvcnRhbnQ7XG59XG5cbi5tYXQtZmxhdC1idXR0b24sIC5tYXQtcmFpc2VkLWJ1dHRvbiwgLm1hdC1mYWIsIC5tYXQtbWluaS1mYWIge1xuICBjb2xvcjogI2ZmZjtcbiAgYmFja2dyb3VuZC1jb2xvcjogI2ZmYjNhOSAhaW1wb3J0YW50O1xufSJdfQ== */"]
     });
     /*@__PURE__*/
 
@@ -3015,7 +3070,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass(ServiceService, [{
         key: "getProducts",
         value: function getProducts() {
-          return this.httpClient.get('http://ec2-54-207-204-85.sa-east-1.compute.amazonaws.com:8080/produto/v1');
+          return this.httpClient.get('http://54.207.204.85:8080/produto/v1');
         }
       }, {
         key: "concludeSelection",
@@ -3111,7 +3166,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       selectors: [["app-thanks"]],
       decls: 2,
       vars: 0,
-      consts: [[2, "background", "linear-gradient(27deg, rgba(0,0,0,1) 2%, rgba(130,138,204,1) 44%, rgba(43,95,235,1) 100%)", "background-size", "cover", "height", "100%", "display", "flex", "align-items", "center", "justify-content", "center"], ["src", "../../assets/99938721-99AM_5LmFdZt6m3-iz0H85iyf5vMFR73-cropped-3x4-browser.png", "height", "60%", "width", "30%"]],
+      consts: [[2, "background", "linear-gradient(27deg, rgb(255, 245, 248) 2%, rgba(255,179,169) 100%)", "background-size", "cover", "height", "100%", "display", "flex", "align-items", "center", "justify-content", "center"], ["src", "../../assets/Obrigado_tti.png", "height", "60%", "width", "60%"]],
       template: function ThanksComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
