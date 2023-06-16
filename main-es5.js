@@ -3079,6 +3079,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! @angular/core */
     "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/common */
+    "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+
+    var _c0 = function _c0(a0) {
+      return {
+        "height": a0
+      };
+    };
 
     var ThanksComponent = /*#__PURE__*/function () {
       function ThanksComponent() {
@@ -3110,8 +3122,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       type: ThanksComponent,
       selectors: [["app-thanks"]],
       decls: 2,
-      vars: 0,
-      consts: [[2, "background", "linear-gradient(27deg, rgb(255, 245, 248) 2%, rgba(255,179,169) 100%)", "background-size", "cover", "height", "100%", "display", "flex", "align-items", "center", "justify-content", "center"], ["src", "../../assets/Obrigado_tti.png", "height", "60%", "width", "60%"]],
+      vars: 3,
+      consts: [[2, "background", "linear-gradient(27deg, rgb(255, 245, 248) 2%, rgba(255,179,169) 100%)", "background-size", "cover", "height", "100%", "display", "flex", "align-items", "center", "justify-content", "center"], ["src", "../../assets/Obrigado_tti.png", "width", "65%", 3, "ngStyle"]],
       template: function ThanksComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -3120,7 +3132,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         }
+
+        if (rf & 2) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](1, _c0, ctx.mobile ? "25%" : "60%"));
+        }
       },
+      directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgStyle"]],
       styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3RoYW5rcy90aGFua3MuY29tcG9uZW50LnNjc3MifQ== */"]
     });
     /*@__PURE__*/
